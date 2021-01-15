@@ -1,0 +1,97 @@
+
+.links {
+    list-style-type: none;
+    
+    padding-top: 0.2%;
+    background-color: #b30000;
+    
+    height: 30px;
+    margin-top: 1%;
+    text-align: center;
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 3px;
+display: inline-block;
+background-color: black;
+
+  }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  
+ 
+  .contact {
+    border-radius: 5px;
+    background-color: #b30000;
+    padding: 20px;
+    font-size: larger;
+  }
+  body{
+    width: 1280px;
+    height: 720px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #b30000;
+    
+  }
+  .header{
+    background-color: black;
+    
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 5px;
+    text-align-last: center;
+    height: 20%;
+   text-decoration: none;
+   padding-top: 6%;
+  }
+  h1{
+    color: white;
+   text-align: center;
+  }
+  label{
+    color: white;
+    font-size: larger;
+  }
+ #load{
+   margin-left: 42%;
+   margin-right: 42%;
+   width: 90px;
+ }
+ p{
+   text-align: center;
+   color: white;
+   font-size: large;
+ }

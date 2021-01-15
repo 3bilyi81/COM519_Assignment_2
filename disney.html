@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Disney +</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<header class="header">
+    <h1>Movie Listings</h1>
+</header>
+<body>
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="netflix.html">Netflix</a>
+        <a href="disney.html">Disney +</a>
+        <a href="hulu.html">Hulu</a>
+        <a href="prime_video.html">Prime Video</a>
+        <a href="update_data.html">Update</a>
+        <a href="contact.html">Contact</a>
+    </div>
+      <section class="get">
+        <h1>Disney + movie listings</h1>
+        <a href="/get-data" id="load">Load Listings</a>
+        <div>
+            {{# each items}}
+        <article class="item">
+            
+        
+        <div>Title: {{ this.title }}</div>
+        <div>ID: {{ this.id }}</div>
+        <div>Year: {{ this.year }}</div>
+        <div>Age: {{ this.age }}</div>
+        <div>IMDb: {{ this.imdb }}</div>
+        <div>Rotten Tomatoes: {{ this.rotten_tomatoes }}</div>
+        <div>Disney +: {{ this.disney }}</div>
+        <div>Type: {{ this.type }}</div>
+        <div>Directors: {{ this.directors }}</div>
+        <div>Genres: {{ this.genres }}</div>
+        <div>Country: {{ this.country }}</div>
+        <div>Language: {{ this.language }}</div>
+        <div>Runtime: {{ this.runtime }}</div>
+    </article >
+            {{/each}}
+       
+        </div>
+              </section>
+</body>
+</html>
